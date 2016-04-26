@@ -1,0 +1,384 @@
+body{
+    overflow-x:hidden;
+    /*   margin-top:50px; */
+    /*   background-color:gray; */
+}
+h1{
+    color:#ddd;
+    font-weight:900;
+}
+
+h3{
+    color:#000 !important;
+}
+a{
+    cursor:pointer;
+    text-decoration:none;
+}
+
+/*---Logo Start------*/
+.navbar-brand{
+    border-bottom:2px solid white;
+    color:black !important;
+}
+.navbar-brand:hover{
+    border-bottom:2px solid white;
+    background-color:#ccc !important;
+}
+
+.navbar-header{
+    /*   background:rgba(0,0,0,0.02); */
+}
+
+/*---Logo End------*/
+
+/*---Navigation Links Start------*/
+.navbar-default{
+    background-color:#999;
+}
+.nav-links{
+    background-color:rgba(204, 204, 204, 0.73);
+}
+.nav-links li a{
+    color:#000 !important;
+    /*   font-weight:700; */
+    transition:all 0.1s ease-in-out;
+}
+.nav-links li a:hover{
+    background-color:white !important;
+    transform:scale(1,1.1);
+    font-weight:900;
+    color:#000 !important;
+}
+
+/*---Navigation Links End------*/
+/*-----Wrapper Start-------*/
+.wrapper{
+
+}
+/*-----Wrapper End-------*/
+
+/*-----Content-Wrapper Start-------*/
+.content-wrapper{
+
+}
+/*-----Content-Wrapper End-------*/
+
+/*-----Home Start-------*/
+#home{
+    /*   min-width:100%; */
+    min-height:800px;
+    width:100%;
+    background-image:url(https://40.media.tumblr.com/1b916597d3e174399cb7adadddb66ede/tumblr_nt5uk4psl31ud7rr3o1_1280.jpg);
+    background-repeat:round;
+}
+.content-home{
+    background:rgba(0,0,0,0.3);
+    height:800px;
+}
+.home-heading{
+    padding-top:225px;
+}
+#home-heading{
+    font-size:48px;
+}
+#home-subHeading{
+    color:whitesmoke;
+}
+
+.divider{
+    margin-top:20px;
+    border-radius:2px;
+    border-top:4px solid #ccc;
+    width:75%;
+    margin-left:15%;
+}
+
+#home-social-logins{
+    float:none;
+    margin:0px auto;
+    /*   padding:0px auto; */
+}
+
+#home-social-login-container{
+    padding-top:20px;
+}
+
+#home-social-login-container .btn{
+    border:1px solid black;
+    transition: all .2s ease-in-out;
+}
+
+#home-social-login-container .btn:hover{
+    border:1px solid black;
+    background-color:black;
+    color:whitesmoke;
+    transform: scale(1.2,1.2);
+}
+
+/*-----Home End-------*/
+
+/*-----About Start-------*/
+
+#about{
+    min-width:100%;
+    min-height:800px;
+    width:100%;
+    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/bgTemplates/Boston%20City%20Flow.jpg);
+    background-repeat:round;
+    /*   margin-top:-50px; */
+}
+.content-about{
+    background:rgba(0,0,0,0.3);
+    height:800px;
+}
+.content .about-experience >h2{
+    font-weight:700;
+    font-style:italic;
+    color:#fff;
+}
+
+.about-experience{
+    padding-top:20%;
+    padding-left:20%;
+    padding-right:10%;
+}
+
+.about-experience p{
+    font-size:22px;
+    margin-top:10%;
+    color:#fff;
+    font-family: 'Antic Slab', serif;
+}
+
+.about-photo{
+    /*   padding:20%; */
+    padding-top:50%;
+    margin-top:10%;
+}
+/*-----About End-------*/
+
+/*-----Portfolio Start-------*/
+
+#portfolio{
+    min-width:100%;
+    min-height:800px;
+    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/bgTemplates/Costa%20Rican%20Frog.jpg);
+    background-repeat:round;
+}
+.content-portfolio{
+    background:rgba(0,0,0,0.3);
+    height:800px;
+}
+.content-portfolio #portfolio-container{
+    padding-top:15%;
+    padding-left:10%;
+    padding-right:10%;
+}
+#portfolio-first{
+    height:200px;
+    width:100%;
+    margin-bottom:10px;
+    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/pizza-stock.jpg);
+    background-size:375px;
+    background-repeat:round;
+}
+#portfolio-second{
+    height:200px;
+    width:100%;
+    margin-bottom:10px;
+    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/angularjs-introjs.jpg);
+    background-size:375px;
+    background-repeat:round;
+}
+#portfolio-third{
+    height:200px;
+    width:100%;
+    margin-bottom:10px;
+    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/AngularJS%20-%20i18n.jpg);
+    background-size:375px;
+    background-repeat:round;
+}
+.overlay{
+    background:rgba(0,0,0,.75);
+    text-align:center;
+    height:100%;
+    width:100%;
+    padding:35px 0 35px 0;
+    opacity:0;
+    -webkit-transition: opacity .25s ease;
+    -moz-transition: opacity .25s ease;
+}
+#overlayIconOne{
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:96px;
+    /*font-size:48px;
+      background:rgba(0,0,0,0.3);*/
+}
+#overlayIconTwo{
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:96px;
+}
+#overlayIconThree{
+    font-weight:900;
+    color:rgba(255,255,255,.85);
+    font-size:96px;
+}
+
+#portfolio-first:hover .overlay{
+    opacity:0.5;
+}
+#portfolio-second:hover .overlay{
+    opacity:0.5;
+}
+#portfolio-third:hover .overlay{
+    opacity:0.5;
+}
+
+/*----Portfolio End-------*/
+
+/*-----Contact Start-------*/
+
+#contact{
+    min-width:100%;
+    min-height:800px;
+    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/bgTemplates/Pensive%20Parakeet.jpg);
+    background-repeat:round;
+}
+.content-contact{
+    background:rgba(0,0,0,0.3);
+    height:800px;
+}
+.content-contact #msg-form{
+    margin:0px auto;
+}
+.content-contact-form{
+    margin-top:10%;
+    width:100%;
+}
+
+.form-group{
+    text-align:center;
+}
+#msg-form .form-group label{
+    color:#47CF73;
+}
+
+#msgBody{
+    resize:none;
+}
+/* .mailTo{
+  display:block;
+  width:100px;
+  height:50px;
+} */
+/*----Contact End-------*/
+
+/*---Footer Start----*/
+.footer{
+    padding:40px;
+    background-color:gray;
+}
+.footer ul li a{
+    text-decoration: none;
+    color:#000;
+}
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+.social > a{
+    text-decoration: none;
+}
+
+.fa-twitter:hover {
+    background-color: #46c0fb;
+}
+.fa-linkedin:hover {
+    background-color: #007bb6;
+}
+
+/*----Footer End----*/
+
+/* Media Queries Start*/
+@media (min-width:1200px){
+    /*   #home-social-logins{
+      padding:0px 320px;
+      }
+      #home-social-login-container{
+        padding-top:20px;
+      } */
+    #home-social-login-container div a{
+        margin-bottom:15px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    /*   #home-social-logins{
+      padding:0px 320px;
+    }
+    #home-social-login-container{
+      padding-top:20px;
+    } */
+    #home-social-login-container div a{
+        margin-bottom:15px;
+        /*     margin-right:-50px; */
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /*  #home-social-logins{
+      padding:0px 320px;
+    }
+    #home-social-login-container{
+      padding-top:20px;
+    } */
+    #home-social-login-container div a{
+        margin-bottom:15px;
+        /*     margin-right:-50px; */
+    }
+}
+
+@media (max-width:767px){
+    #home-social-logins ul li{
+        display:block;
+    }
+
+    #home-social-login-container div a{
+        margin-bottom:15px;
+    }
+
+    .about-experience p{
+        font-size:16px;
+        margin-top:5%;
+        color:#fff;
+        font-family: 'Antic Slab', serif;
+    }
+    .content-contact-form{
+        margin-top:25%;
+    }
+    /* Footer ul element*/
+    .footer-links{
+        margin-bottom:10px;
+    }
+    .footer ul li{
+        display:block;
+    }
+    /*Footer social media icons*/
+    .social{
+        margin-bottom:10px;
+    }
+}
+
+/* Media Queries End*/
+Status 
