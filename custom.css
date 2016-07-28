@@ -124,7 +124,7 @@ a{
     min-width:100%;
     min-height:800px;
     width:100%;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/bgTemplates/Boston%20City%20Flow.jpg);
+    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/bgTemplates/Boston%20City%20Flow.jpg);
     background-repeat:round;
     /*   margin-top:-50px; */
 }
@@ -163,7 +163,7 @@ a{
 #portfolio{
     min-width:100%;
     min-height:800px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/bgTemplates/Costa%20Rican%20Frog.jpg);
+    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/bgTemplates/Costa%20Rican%20Frog.jpg);
     background-repeat:round;
 }
 .content-portfolio{
@@ -179,7 +179,7 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/pizza-stock.jpg);
+    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/pizza-stock.jpg);
     background-size:375px;
     background-repeat:round;
 }
@@ -187,7 +187,7 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/angularjs-introjs.jpg);
+    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/angularjs-introjs.jpg);
     background-size:375px;
     background-repeat:round;
 }
@@ -195,7 +195,7 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/AngularJS%20-%20i18n.jpg);
+    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/AngularJS%20-%20i18n.jpg);
     background-size:375px;
     background-repeat:round;
 }
@@ -244,7 +244,7 @@ a{
 #contact{
     min-width:100%;
     min-height:800px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/bgTemplates/Pensive%20Parakeet.jpg);
+    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/bgTemplates/Pensive%20Parakeet.jpg);
     background-repeat:round;
 }
 .content-contact{
