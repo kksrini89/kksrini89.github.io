@@ -1,5 +1,6 @@
 body{
     overflow-x:hidden;
+    font-family: 
     /*   margin-top:50px; */
     /*   background-color:gray; */
 }
@@ -179,7 +180,8 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/pizza-stock.jpg);
+    background-image: url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/Artists-Albums.JPG);
+    /*background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/pizza-stock.jpg);*/
     background-size:375px;
     background-repeat:round;
 }
@@ -187,7 +189,8 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/angularjs-introjs.jpg);
+    background-image: url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/GithubSearch.JPG);
+    /*background-image:url(https://raw.githubusercontent.com/kksrini89/backgroundImagesTemplates/master/image/angularjs-introjs.jpg);*/
     background-size:375px;
     background-repeat:round;
 }
@@ -195,7 +198,8 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/AngularJS%20-%20i18n.jpg);
+    background-image: url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/pizza-stock.jpg);
+    /*background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/AngularJS%20-%20i18n.jpg);*/
     background-size:375px;
     background-repeat:round;
 }
