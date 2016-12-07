@@ -10,12 +10,18 @@ $(document).ready(function () {
 
     $("#portfolio-first").hover(function () {
         $("#overlayIconOne").addClass("fa fa-fire");
+    }, function () {
+        $("#overlayIconOne").removeClass("fa fa-fire");
     });
     $("#portfolio-second").hover(function () {
         $("#overlayIconTwo").addClass("fa fa-fire");
+    }, function () {
+        $("#overlayIconTwo").removeClass("fa fa-fire");
     });
     $("#portfolio-third").hover(function () {
         $("#overlayIconThree").addClass("fa fa-fire");
+    }, function () {
+        $("#overlayIconThree").removeClass("fa fa-fire");
     });
 
     // Contact US
