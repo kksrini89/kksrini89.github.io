@@ -1,9 +1,10 @@
 body{
     overflow-x:hidden;
-    font-family: 
+    /*font-family: */
     /*   margin-top:50px; */
     /*   background-color:gray; */
 }
+
 h1{
     color:#ddd;
     font-weight:900;
@@ -162,19 +163,21 @@ a{
 /*-----Portfolio Start-------*/
 
 #portfolio{
+    padding: 5% 10% 5% 10%;
     min-width:100%;
-    min-height:800px;
+    /*min-height:800px;*/
+    overflow-y: auto;
     background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/bgTemplates/Costa%20Rican%20Frog.jpg);
     background-repeat:round;
 }
 .content-portfolio{
     background:rgba(0,0,0,0.3);
-    height:800px;
+    /*height:800px;*/
 }
 .content-portfolio #portfolio-container{
-    padding-top:15%;
+    /*padding-top:5%;
     padding-left:10%;
-    padding-right:10%;
+    padding-right:10%;*/
 }
 #portfolio-first{
     height:200px;
@@ -198,11 +201,21 @@ a{
     height:200px;
     width:100%;
     margin-bottom:10px;
-    background-image: url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/pizza-stock.jpg);
-    /*background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/AngularJS%20-%20i18n.jpg);*/
+    background-image: url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/ng2-BusinessContacts-Firebase.JPG);    
     background-size:375px;
     background-repeat:round;
 }
+
+#portfolio-four{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/pizza-stock.jpg);
+    /*background-image:url(https://raw.githubusercontent.com/kksrini89/portfoliosite-images/master/image/AngularJS%20-%20i18n.jpg);*/
+    background-size: 375px;
+    background-repeat: round;
+}
+
 .overlay{
     background:rgba(0,0,0,.75);
     text-align:center;
@@ -213,19 +226,7 @@ a{
     -webkit-transition: opacity .25s ease;
     -moz-transition: opacity .25s ease;
 }
-#overlayIconOne{
-    font-weight:900;
-    color:rgba(255,255,255,.85);
-    font-size:96px;
-    /*font-size:48px;
-      background:rgba(0,0,0,0.3);*/
-}
-#overlayIconTwo{
-    font-weight:900;
-    color:rgba(255,255,255,.85);
-    font-size:96px;
-}
-#overlayIconThree{
+#overlayIcon{
     font-weight:900;
     color:rgba(255,255,255,.85);
     font-size:96px;
@@ -238,6 +239,9 @@ a{
     opacity:0.5;
 }
 #portfolio-third:hover .overlay{
+    opacity:0.5;
+}
+#portfolio-four:hover .overlay{
     opacity:0.5;
 }
 
@@ -385,4 +389,3 @@ a{
 }
 
 /* Media Queries End*/
-Status 
